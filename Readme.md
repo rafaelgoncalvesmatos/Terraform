@@ -51,5 +51,11 @@ Para aplicar as definições execute:
 ```
 terraform apply
 ```
+## Outros comandos
+
+Podemos através do parametro output verificar o que foi gerado:
+```
+terraform output
+```
 
 
