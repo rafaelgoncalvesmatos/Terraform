@@ -35,7 +35,7 @@ resource "docker_container" "nginx-server" {
 }
 ```
 
-# Validacao
+## Validacao
 
 A proxima fase é a validacao onde podemos checar o que será feito:
 
@@ -44,7 +44,7 @@ A proxima fase é a validacao onde podemos checar o que será feito:
 terraform plan --out config.tfplan
 ```
 
-# Aplicando 
+## Aplicando 
 
 Para aplicar as definições execute:
 
@@ -56,6 +56,7 @@ terraform apply
 Podemos através do parametro output verificar o que foi gerado:
 ```
 terraform output
+
 ```
 
 
